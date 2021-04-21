@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="quanLyNhaThuoc">Quản Lý Nhà Thuốc</string>
+    <string name="nhaThuoc">Nhà Thuốc</string>
+    <string name="hoaDon">Hóa Đơn</string>
+    <string name="chiTietBanLe">Chi Tiết Bán Lẻ</string>
+    <string name="thuoc">Thuốc</string>
+    <string name="thoat">Thoát</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="danhSach">Danh Sách</string>
+    <string name="timKiem">Tìm Kiếm</string>
+    <string name="maNhaThuoc">Mã Nhà Thuốc</string>
+    <string name="tenNhaThuoc">Tên Nhà Thuốc</string>
+    <string name="diaChi">Địa Chỉ</string>
+    <string name="xacNhan">Xác Nhận</string>
+    <string name="lamMoi">Làm Mới</string>
+    <string name="huy">Hủy</string>
+    <string name="themNhaThuoc">Thêm Nhà Thuốc</string>
+    <string name="suaNhaThuoc">Sửa Nhà Thuốc</string>
+</resources>

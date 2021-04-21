@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="411dp"
+        android:layout_height="50dp"
+        android:text="@string/nhaThuoc"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#F44336"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/timKiem"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ListView
+        android:id="@+id/lvNhaThuoc"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginBottom="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/NT_btnXemDS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/danhSach"
+            app:backgroundTint="#4CAF50"
+            />
+        <Button
+            android:id="@+id/NT_btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/them"
+            app:backgroundTint="#4CAF50"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:id="@+id/NT_btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xoa"
+            app:backgroundTint="#4CAF50"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:id="@+id/NT_btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sua"
+            app:backgroundTint="#4CAF50"
+            />
+
+    </LinearLayout>
+</LinearLayout>
